@@ -11,7 +11,7 @@ class Alien(Sprite):
         self.ai_settings = ai_settings
 
         #Läd das Bild des Invasionschiffes und legt die rect attribute fest
-        self.image = pygame.image.load("/home/mi/programming/Game_recent/images/alien.bmp")
+        self.image = pygame.image.load("images/alien.bmp")
         self.rect = self.image.get_rect()
 
         #Platziert jedes neue Invasionsschiff oben links auf dem Bildschirm
